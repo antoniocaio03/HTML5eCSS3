@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinãmicas</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplemente aumente e diminua o tamanho do seu navegar</p>
+    <picture> 
+        <source media="(max-width:750px )" srcset="Imagens/foto-pequena.png" type="image/png">
+        <!-- Nota: O "source" tem que ficar em ordem da imagem maior para a menor, mesmo que tenha outras imagens menores que a anterior ira seguir a mesma regra, sempre da maior para menor -->
+        <!-- A tag <source media type> serve para redimensionarmos uma imagem automaticamente -->
+        <!-- A "media" é usada para definir qual a largura máxima que a imagem podera aumentar -->
+        <!-- A "srcset" é usada para colocarmos a nova imagem que ira substituir a antiga -->
+        <!-- A "type" é usada para determinarmos qual o tipo de imagem que iremos inserir -->
+        <source media="(max-width:1050px)" srcset="Imagens/foto-media.png" type="image/png">
+        <img src="Imagens/foto-grande.png" alt="imagem flexivel">
+    </picture>
+    <h2>Reproduzinho Áudio</h2>
+    <audio src="midias/Zoom - Vibe Tracks.mp3" controls  ></audio>
+    <!-- MP30 -WAV-OGG -->
+    <br>
+    <audio preload="metadata" controls>
+        <source src="midias/Zodiac Structures - NoMBe.mp3" type="audio/mpeg">
+        <source src="midias/Zodiac Structures - NoMBe.wav" type="audio/wav">
+        <!-- Evitar os arquivos "WAV", pois eles são grandes -->
+        <source src="midias/Zodiac Structures - NoMBe.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegar não consegue reproduzir áudio. <a href="midias/Zodiac Structures - NoMBe.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+
+    </audio>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "ds. 010",
+			"path": "."
+		},
+		{
+			"name": "pacote-projeto-d010",
+			"path": "../../../../../../Downloads/pacote-projeto-d010"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ds. 010",
+		"liveServer.settings.port": 5501
+	}
+}

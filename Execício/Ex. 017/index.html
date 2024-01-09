@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            /* Medidas Absolutas
+            cm, mm, in, px, pt, pc 
+            Recomendação Oficial: px e em são as que serão usadas.*/
+            /* Medidas Relativas 
+            em, exm rem, vw, vh, 
+            16px geralmente = 1em%*/
+            font-size: 16px ;
+            font-weight:lighter ;
+            text-decoration: underline;
+            /* lighter, normal, bold, bolder */
+        }
+        h1{
+            
+            /* shorthand font
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 3em;
+            font-style: italic;
+            = font-style -> font-weight -> font-size -> font-family */
+            font: italic bold 3em "Courier New", Courier, monospace
+        }
+        h2{
+            font: bold 2em 'Work Sans'; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere veritatis libero animi inventore provident obcaecati expedita quas magnam sapiente? Nostrum neque, debitis commodi natus obcaecati ipsa aliquid similique aut?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum et cumque eaque neque qui impedit deserunt earum magni. Est, at!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolores doloribus dolore eius molestias dolor, quidem natus debitis error quisquam quam excepturi aspernatur, corrupti laudantium eos, rerum illum quod nam?</p>
+
+</body>
+</html>

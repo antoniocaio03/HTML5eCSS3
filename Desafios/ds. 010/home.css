@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf);
+
+    
+
+}
+body{
+    background-color: #89CDA5;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+header{
+    background-image: linear-gradient(to bottom, #55B376, #2a6a44, #1A5A37);
+    padding: 3px 8px 8px 8px;
+    margin: 0px;
+    box-shadow: 0px 1px 4px #2a6a44;
+    margin-top: -5px;
+    margin-left: -6px;
+    margin-right: -8px;
+    
+}
+ul{
+    display: inline-block;
+    
+}
+#cabeçalho{
+    font-family: 'bebas neue', sans-serif
+    ;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    text-shadow: 1px 1px 3px #1A5A37;
+  
+    
+}
+main{
+    background-color: white;
+    padding: 20px;
+    width: 850px;
+    margin: auto;
+    box-shadow: 0px 1px 7px 3px #327e5098;
+    border-radius: 10px;
+    
+}
+.lado-lado{
+    display: inline-block;
+    padding: 7px
+    
+}
+.link{
+    color: white;
+    margin: 10px;
+    
+    
+}
+picture{
+    width: auto;
+}
+nav div{
+    transition: 0.5s linear;
+    border-radius: 5px;
+}
+nav div:hover{
+    background-color: #89CDA5;
+    border-radius: 5px;
+    
+    
+}
+#menus-links{
+    background-color:rgb(26, 90, 55);
+    padding:3px;
+    margin-top: -5px;
+    margin-left: -6px;
+    margin-right: -8px;
+    font-weight: 700;
+    
+}
+
+#cabeça{
+    text-align: center;
+    color: white;
+}
+.degrade{
+    text-align: left;
+    background-image: linear-gradient(to right, #8ECFA9, #ABDBBE, white);
+    color: #1A5A37;
+    padding: 3px 2px 3px 6px;
+    border-radius: 10px;
+ }
+
+#historia{
+    font:normal 30px 'idroid' ;
+    color: #1A5A37;
+    text-shadow: 2px 2px 3px #1A5A37;
+    text-align: center;
+   
+}
+h2{
+    font:normal bold 20px 'idroid' ;
+}
+p{
+    text-indent: 20px;
+    text-align: justify;
+}
+.links{
+    text-decoration: none;
+    color: #1A5A37;
+    font-weight: 700;
+    margin: 9px;
+    
+}
+.links:hover{
+    background-color: #1A5A37;
+    color: white;
+}
+strong{
+    color: #1A5A37;
+    text-shadow: 2px 2px 3px #1a5a378d;
+    font-weight: 700;
+}
+footer{
+    background-color: #1A5A37;
+    text-align: center;
+    color: white;
+    margin: 5px -11px -6px -9px
+}
+h3{
+    margin: 0px;
+}
+#aprender{
+    background-color: #2FA866;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    border-radius: 5px 5px 1px 1px;
+    font-size: 15px;
+}
+section{
+    background-color: #C5EBD6;
+    box-shadow: 0px 2px 4px 2px #1a5a3773;
+}
+.assunto{
+    padding: 10px;
+    
+}
+.assuntos{
+    padding: 10px;
+    margin: 0px;
+}
+footer > a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}

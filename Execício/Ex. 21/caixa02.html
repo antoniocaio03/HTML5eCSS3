@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @font-face {
+            font-family:"pixel" ;
+            src: url(fontes/04B_30__.TTF);
+        }
+        @font-face {
+            font-family: "pixel2" ;
+            src: url(fontes/Daydream.ttf);
+        }
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+        h1{
+            text-align: center;
+            font-family: "pixel";
+            color: rgb(255, 42, 74);
+            
+        }
+        h2{      
+            font: normal bold 15px "pixel2";
+            color: rgb(247, 110, 131);
+        }
+        nav{
+            background-color: rgb(250, 37, 37);
+            padding: 3px;
+            box-shadow: 2px 2px 5px rgba(139, 0, 0, 0.566) ;
+        }
+        nav > a{
+            text-decoration: none;
+            color: aliceblue;
+            
+        }
+        nav:hover{
+            background-color: rgb(250, 134, 114);
+           
+
+        }
+        nav > a:hover{
+            color: rgb(128, 255, 0);
+        }
+        header{
+            background-color: #3DFC86;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+
+        }
+        main{
+            background-color: #6ff9a4;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+             border-radius: 10px;
+
+        }
+        footer{
+            background-color: rgb(30, 51, 16);
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        aside{
+            background-color: rgb(143, 30, 30);
+            padding: 3px;
+        }
+        aside > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: #3DFC86;
+            border-radius: 100px;
+            box-shadow: 3px 1px 7px 0px #006400a3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                
+                
+                        <h2>Noticia sobre o Brasil</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, amet. Earum sapiente laudantium et temporibus hic quos cumque tenetur eligendi?</p>
+                    </article>
+                    <article>
+                    <aside>
+                        <p>Artigo escrito por José da Silva</p>
+                    </aside>
+            </article>
+            
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Caio
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

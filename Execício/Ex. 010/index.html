@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Vocô pode acessar o meu <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Ligações%20em%20toda%20parte.pdf" target="_blank" rel="external">repositório público Github</a></p>
+    <!--A tag <a> é para anexar um link a uma frase ou palavra -->
+        
+        <!--Para indicar o endereço do link, a URL é colocada dentro do <a "href="""> que fica dentro da tag <a> -->
+            <!--Para determinar se queremos que o link que será acessado ficara ao lado da nossa aba ou substituia ela, usamos o "target=""" para isso, com o "_blanck" dentro das aspas indicando que queremos que a nova aba fique ao lado da nossa -->
+            <!--Para substituir a nossa aba, usamos "_self" dentro das aspas do "target" -->
+
+        <!--O "rel=""" é usado para determinar se o link em questão é ou não externo,  -->
+            <!--Usamos "external" para indicar que é um link externo,   -->
+            <!-- usamos "next" para determinar que é um link interno e que levará para a próxima página que faz parte do nosso site -->
+            <!--O "prev" é usado para indicar que é um link interno e que faz parte da página anterior  -->
+            <!--Também temos "author" para levar a um artigo que estamos mencionando de um determinado autor  -->
+
+    
+    <p>Você também pode acessar o meu <a href="https://www.youtube.com"  target="_self" rel="external" hreflang="en">canal gratuito no YouTube</a></p>
+
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">segunda página</a></p>
+
+    <p>Você também pode acessar a nossa <a href="Notícias/pag003.html">página de notícias</a></p>
+    
+    <h1>Links para downloads</h1>
+    <ul>
+        <li><a href="Livro/09 - Listas HTML.pdf" download="Listas HTML" target="_blank" rel="external" >Baixar o livro em PDF</a></li>
+        <li><a href="Livro/09 - Listas HTML zip.zip" >Baixar o livro em ZIP</a></li>
+        <li><a href="Livro/09 - Listas HTML.pdf" download="Listas HTML">Baixar o livro em PDF 2</a></li>
+    </ul>
+</body>
+</html>
