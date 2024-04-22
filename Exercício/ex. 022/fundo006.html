@@ -3,19 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Fundo fixo de Tela</title>
     <style>
         body{
-            height: 100vh;
+            /* height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
+            background-repeat: no-repeat; */
+
+            /* Preenche a tela mas achata a imagem
+            background-size: 100% 100%; */
+
+            /* A imagem é 100% exibida, mas com as laterais vazias background-size: contain; */
+
+            /* Cobre a tela toda mesmo que tenha que cortar a imagem  background-size: cover; */ 
+
+            /* background-attachment: fixed; */
+
+            /* Shorthand - background 
+            color > image > positon > /size > repeat > attachment*/
+            background: black url('imagens/wallpaper003.jpg') center center/cover no-repeat fixed;
+
         }   
         main{
-            /* largura */
-            width: 400px;
+            /* tamanho máximo da largura */
+            max-width: 400px;
 
             /* Espaço interno */
             padding: 10px;
@@ -31,7 +44,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta dolorum ullam ratione distinctio porro iste laborum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta doloruMagnam veniam non voluptatum quibusdam consequuntur at excepturi, enim nulla impedit facilis tempore minus dicta dolorum ullam ratione distinctio porro iste laborum!</p>
     </main>
 </body>
 </html>
