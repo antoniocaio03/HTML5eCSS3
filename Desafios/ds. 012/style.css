@@ -7,12 +7,45 @@
    background-color: black;  
     background-size: 100% 100%;
     text-align: center;
+    padding: 20px 10px 20px 10px;
 
 }
 
 h1{
     color: white;
+    font-size: 85px;
+    
+
 }
+
+#texto-branco{
+    color: white;
+}
+
+#q1{
+    background-image: url('imagens/background001.jpg');
+    position: relative;
+    padding: 25px 0px 25px 15px;
+    background-repeat: no-repeat;
+}
+
+#q2{
+    background-image: url('imagens/background002.jpg');
+    position: relative;
+    padding: 25px 0px 25px 15px;
+    background-repeat: no-repeat;
+}
+
+.quadrado{
+   width: 400px;
+   height: 300px;
+   background-color: black;
+   padding: 10px;
+   font-size: 30px;
+   osition: absolute;
+   letter-spacing: 3px;
+}
+
 a:hover{
     text-decoration: underline;
     color: white;
@@ -21,6 +54,7 @@ a:hover{
 a{
     color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
 .quadrado{
     color: white;
