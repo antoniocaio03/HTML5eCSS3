@@ -5,21 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alinhamento Vertical</title>
     <style>
+        body{
+            height: 96vh;
+            margin: 2px;
+        }
         #container{
-            background-image: url;
-            /* Por padrão, o navegar já vem com a "position: relativo", foi colocado só para exemplificar. */
+            background-image: url('imagens/target001.png');
+
+            /* Serve para o objeto pai, para não ter problemas de coordernadas, left, top, right, bottom, no objeto filho. */
             position: relative;
-            height: 500px;
+
+            height: 500px;  
+            background-size: 100% 100%;
             padding: 10px;
             background-color: red;
+            background-repeat: no-repeat;
+
         }
 
         #conteudo{
+            background-image: url('imagens/target001.png');
             position: absolute;
             height: 200px;
             width: 200px;
             background-color: aqua;
             margin: auto;
+            background-size: 100% 100%;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50px, -50px);
         }
     </style>
 </head>
