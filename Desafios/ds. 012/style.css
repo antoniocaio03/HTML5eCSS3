@@ -6,8 +6,14 @@
 
 @font-face {
     font-family: 'verdana';
-    src: url('fontes/verdana-font-family/verdana.ttf');
+    src: url("fontes/verdana.ttf") format('opentype');
     font-weight: normal;
+}
+
+@font-face {
+    font-family: 'verdana2';
+    src: url("fontes/verdana-bold.ttf") format('opentype');
+    font-weight: bold;
 }
 
 
@@ -19,7 +25,9 @@
 
 #cabecalho{
    background-color: black;  
-    height: 200px;
+        
+   margin: auto;
+    padding: 40px 0px 40px 0px;
   
 
 
@@ -32,17 +40,23 @@ h1{
     text-align: center;
     font-family: "Passion One", sans-serif;
     font-style: normal;
+   
+    
 
     /* Para determinar a expessura da fonte */
-    font-weight: 700px;
+    font-weight: 900px;
     
 
 }
 
+.externo{
+    
+    font-family: "verdana2", sans-serif;
+}
 #texto-branco{
     color: white;
     text-align: center;
-    font-family: 'verdana', sans-serif;
+    font-family: "verdana", sans-serif;
 }
 
 #q1{
@@ -63,15 +77,28 @@ h1{
     background-attachment: fixed;
 }
 
+pre{
+    
+}
+
+.cordel{
+    font-size: 30px;
+    font-family: "Sriracha"; 
+}
+
+
+
 .quadrado{
-   width: 400px;
-   height: 300px;
+   width: 500px;
+   height: 5%;
    background-color: rgba(0, 0, 0, 0.364);
    padding: 10px;
    font-size: 30px;
-   
+   font-family: "Sriracha";
    letter-spacing: 3px;
+   
 }
+
 p{
     text-align: left;
 }
