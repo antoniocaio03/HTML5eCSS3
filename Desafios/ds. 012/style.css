@@ -16,7 +16,9 @@
     font-weight: bold;
 }
 
-
+body{
+    height: 100vh;
+}
 
 *{
     margin: 0px;
@@ -28,10 +30,6 @@
         
    margin: auto;
     padding: 40px 0px 40px 0px;
-  
-
-
-
 }
 
 h1{
@@ -77,34 +75,26 @@ h1{
     background-attachment: fixed;
 }
 
-pre{
-    
-}
-
-.cordel{
-    font-size: 30px;
-    font-family: "Sriracha"; 
-}
-
-
 
 .quadrado{
-   width: 500px;
-   height: 5%;
+   
    background-color: rgba(0, 0, 0, 0.364);
-   padding: 10px;
+   padding: 20px 0px 20px 5px;
    font-size: 30px;
    font-family: "Sriracha";
-   letter-spacing: 3px;
+   text-align: left;
+   color: white;
+   display: inline-block;
+   
    
 }
 
-p{
-    text-align: left;
-}
+
 .cordel{
     font-size: 30px;
     text-align: left;
+    margin: 40px 10px 35px 30px;
+    font-family: "Sriracha"; 
 }
 
 a:hover{
@@ -117,16 +107,19 @@ a{
     text-decoration: none;
     font-weight: bolder;
 }
-.quadrado{
-    color: white;
-    text-align: center;
-}
+
 
 footer{
     background-color: black;
+    font-family: "verdana", sans-serif;
+    font-weight: normal;
+    padding: 5px;
+    font-size: 13px;
 }
 
 .texto-rodape{
     color: white;
     text-align: center;
+    font-family: "verdana", sans-serif;
+    
 }
