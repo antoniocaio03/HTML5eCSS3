@@ -30,16 +30,18 @@ body{
         
    margin: auto;
     padding: 40px 0px 40px 0px;
+    
 }
 
 h1{
     color: white;
-    font-size: 85px;
+    
     text-align: center;
     font-family: "Passion One", sans-serif;
     font-style: normal;
+    font-variant: small-caps;
    
-    
+    font-size: 10vh;
 
     /* Para determinar a expessura da fonte */
     font-weight: 900px;
@@ -75,12 +77,16 @@ h1{
     background-attachment: fixed;
 }
 
-
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 4vh;
+}
 .quadrado{
    
    background-color: rgba(0, 0, 0, 0.364);
-   padding: 20px 0px 20px 5px;
-   font-size: 30px;
+   
+   
    font-family: "Sriracha";
    text-align: left;
    color: white;
@@ -91,7 +97,7 @@ h1{
 
 
 .cordel{
-    font-size: 30px;
+    
     text-align: left;
     margin: 40px 10px 35px 30px;
     font-family: "Sriracha"; 
