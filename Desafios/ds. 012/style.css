@@ -17,7 +17,7 @@
 }
 
 body{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 *{
@@ -65,6 +65,8 @@ h1{
     background-repeat: no-repeat;
     background-size:cover ;
     background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 8px 6px 20px 0px rgba(0, 0, 0, 0.568); 
     
 }
 
@@ -75,22 +77,25 @@ h1{
     background-repeat: no-repeat;
     background-size:cover ;
     background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 8px 6px 20px 0px rgba(0, 0, 0, 0.568); 
 }
 
 section{
     padding-top: 10vw;
     padding-bottom: 10vw;
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 .quadrado{
    
    background-color: rgba(0, 0, 0, 0.364);
-   
-   
+   text-shadow: 1px 1px 0px black;
+   padding: 7px;
    font-family: "Sriracha";
    text-align: left;
    color: white;
    display: inline-block;
+   font-size: 1em;
    
    
 }
@@ -101,6 +106,7 @@ section{
     text-align: left;
     margin: 40px 10px 35px 30px;
     font-family: "Sriracha"; 
+    font-size: 1em;
 }
 
 a:hover{
