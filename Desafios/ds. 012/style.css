@@ -41,7 +41,7 @@ h1{
     font-style: normal;
     font-variant: small-caps;
    
-    font-size: 10vh;
+    font-size: 10vw;
 
     /* Para determinar a expessura da fonte */
     font-weight: 900px;
@@ -61,11 +61,11 @@ h1{
 
 #q1{
     background-image: url('imagens/background001.jpg');
-    position: relative;
     padding: 25px 0px 25px 15px;
     background-repeat: no-repeat;
     background-size:cover ;
     background-attachment: fixed;
+    
 }
 
 #q2{
@@ -78,9 +78,9 @@ h1{
 }
 
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    font-size: 4vh;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    font-size: 4vw;
 }
 .quadrado{
    
