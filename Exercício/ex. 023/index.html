@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste - Tabela em HTML</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        table{
+            width: 400px;
+            height: 400px;
+            
+            /* A propriedade collapse faz com que cada celula fique colada uma com as outras. */
+            border-collapse: collapse;
+            margin: auto;
+            
+        }
+        th{
+            color: white;
+            border: 1px solid white;
+            
+        }
+        td{
+            color: rgb(140, 0, 255);
+            border: solid 1px white;
+            padding: 5px;
+
+            /* Alinhamento horizontal */
+            text-align: center;
+
+            /* Alinhamento vertical
+            midle = meio
+            bottom = baixo */
+            vertical-align: bottom;
+        }
+        tr{
+            background-color: rgba(105, 0, 105, 0.274);
+        }
+        .numero{
+            text-align: right;
+            vertical-align: middle;
+            color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeira Tabela</h1>
+
+    <!-- Hierarquia de Tabela Simples
+        table row = linha da tabela (tr)
+        table header = cabeçalho da tabela ()
+        table data = dados da tabela (td) -->
+        
+    <table>
+        
+        <!-- Primeira Linha -->
+        <tr>
+            <td>A1</td>
+            <td class="numero" >300</td>
+            <td>C1</td>
+        </tr> 
+        <!-- Segunda Linha -->
+        <tr>
+            <td>A2</td>
+            <td  class="numero">200</td>
+            <td>C2</td>
+        </tr>
+        <!-- Terceira Linha -->
+        <tr>
+            <td>A3</td>
+            <td class="numero">100</td>
+            <td>C3</td>
+        </tr>
+        <!-- Quarta Linha -->
+        <tr>
+            <td>A4</td>
+            <td class="numero">400</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
