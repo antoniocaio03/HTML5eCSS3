@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center ;
+            
+        }
+        thead, tfoot{
+            background-color: rgb(14, 255, 143);
+        }
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas grandes</h1>
+    <!-- Estrutura para tabelas grande
+        thead
+            tr, td, th
+
+        tbody
+            tr, td th
+
+        tfoot
+            tr, td, th
+         -->
+
+         <table>
+            <thead>
+                <tr>
+                    <th>Bandeira</th>
+                    <th>Unidade Federativa</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>*bandeira do Acre</td>
+                    <td>Acre</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total de Habitantes</th>
+                    <td>45678</td>
+                </tr>
+            </tfoot>
+         </table>
+</body>
+</html>
