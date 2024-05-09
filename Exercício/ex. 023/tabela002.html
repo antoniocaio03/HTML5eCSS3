@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <!-- Para a próxima aula -> Acrescentar mais conteúdo na tabela. -->
     <style>
         th, td{
             border: 1px solid black;
@@ -12,17 +13,42 @@
             
         }
         thead, tfoot{
-            background-color: rgb(14, 255, 143);
+            background-color: rgb(213, 219, 216);
         }
         table{
             border-collapse: collapse;
-            width: 400px;
+            width: 700px;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: rgba(169, 169, 169, 0.541);
+        }
+        tbody > tr:hover{
+            background-color: darkgray;
+            font-weight: bold;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.301);
+        }
+        caption{
+            font-weight: bolder;
+            background-color: black;
+            color: white;
+        }
+        caption:hover{
+            text-decoration: underline;
+        }
+        td.numero{
+            text-align: right;
+            vertical-align: middle;
+        }
+        td.bandeira{
+            text-align: left;
+            vertical-align: left;
         }
     </style>
 </head>
 <body>
     <h1>Uso de Tabelas grandes</h1>
     <!-- Estrutura para tabelas grande
+        Caption=Legenda da tabela.
         thead
             tr, td, th
 
@@ -34,25 +60,103 @@
          -->
 
          <table>
+            <caption>Informações sobre as Unidades Federativas</caption>
             <thead>
                 <tr>
-                    <th>Bandeira</th>
-                    <th>Unidade Federativa</th>
-                    
+                    <th scope="col" style="width: 200px;">Bandeira</th>
+                    <th scope="col">Unidade Federativa</th>
+                    <th scope="col">Abreviação</th>
+                    <th scope="col">Sede de Governo</th>
+                    <th scope="col"  style="width: 100px;">Área (km²)</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>*bandeira do Acre</td>
+                    
+                    <td class="bandeira">*bandeira do Acre</td>
                     <td>Acre</td>
+                    <td>AC</td>
+                    <td>Rio Branco</td>
+                    <td class="numero">164 122,2</td>
+                </tr>
+                <tr>
+                    <td class="bandeira">*bandeira de Alagoas</td>
+                    <td>Alagoas</td>
+                    <td>AL</td>
+                    <td>Maceió</td>
+                    <td class="numero">27 767,7</td>
+                </tr>
+                <tr>
+                    <td class="bandeira">*bandeira do Amapá</td>
+                    <td>Amapá</td>
+                    <td>AP</td>
+                    <td>Macapá</td>
+                    <td class="numero">142 814,6</td>
+
+                </tr>
+                <tr>
+                    <td class="bandeira">*bandeira de Amazonas</td>
+                    <td> Amazonas</td>
+                    <td>AM</td>
+                    <td>Manaus</td>
+                    <td class="numero">1 570 745,7</td>
+                </tr>
+                <tr>
+                    <td class="bandeira">*bandeira da Bahia</td>
+                    <td>Bahia</td>
+                    <td>BA</td>
+                    <td>Salvador</td>
+                    <td class="numero">564 692,7</td>
+                </tr>
+                <tr>
+                    <td class="bandeira">*bandeira do Ceará</td>
+                    <td>Ceará</td>
+                    <td>CE</td>
+                    <td>Fortaleza</td>
+                    <td class="numero">148 825,6</td>
+                </tr>
+                <tr>
+                    <td class="bandeira">*bandeira do distrito Federal</td>
+                    <td>Distrito Federal</td>
+                    <td>DF</td>
+                    <td>Brasília</td>
+                    <td class="numero">5 822,1</td>
+                </tr>
+                <tr>
+                    <td class="bandeira">*bandeira do Espírito Santos</td>
+                    <td>Espírito Santos</td>
+                    <td>ES</td>
+                    <td>Vitória</td>
+                    <td class="numero">46 077,5</td>
+                </tr>
+                <tr>
+                    <td class="bandeira">*bandeira de Goiás</td>
+                    <td>Goiás</td>
+                    <td>GO</td>
+                    <td>Goiânia</td>
+                    <td class="numero">340 086,7</td>
+                </tr>
+                <tr>
+                    <td class="bandeira">*bandeira do Maranhão</td>
+                    <td>Maranhão</td>
+                    <td>MA</td>
+                    <td>São Luís</td>
+                    <td class="numero">331 983,3</td>
+                </tr>
+                <tr>
+                    <td class="bandeira">*bandeira do Mato Grosso</td>
+                    <td>Mato Grosso</td>
+                    <td>MT</td>
+                    <td>Cuibá</td>
+                    <td class="numero">903 357,9</td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
                     <th>Total de Habitantes</th>
-                    <td>45678</td>
+                    <td><strong>45678</strong></td>
                 </tr>
             </tfoot>
-         </table>
+        </table>
 </body>
 </html>
